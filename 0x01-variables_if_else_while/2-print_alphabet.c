@@ -8,16 +8,10 @@
  */
 int main(void)
 {
-	signed char x;
-	int n;
-
-	for (n = 97; n <= 122; n++)
+	for(int x = 'A'; x <= 'Z'; x++)
 	{
-	x = n;
-	printf("%c", x);
-	if (n == 122)
-	{
-	printf("\n");
+		int lower_x = tolower(x);
+		putchar(lower_x);
 	}
 	return (0);
 }
