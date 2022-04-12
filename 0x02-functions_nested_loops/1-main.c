@@ -2,10 +2,10 @@
 /**
  * main - Entry point
  *
- * Return: 0
+ * Return: 0 on success
  */
 int main(void)
 {
-	_putchar();
+	print_alphabet_x10();
 	return (0);
 }
