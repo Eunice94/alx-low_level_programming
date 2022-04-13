@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - check code
  *
  * Return: Always 0
  */
