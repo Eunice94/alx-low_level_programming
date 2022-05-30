@@ -7,7 +7,7 @@
  * @s2: second string
  * Return: pointer pointing to a newly allocated space or NULL
  */
-char *str_concat(shar *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *strnew = NULL;
 	unsigned int i;
@@ -27,7 +27,7 @@ char *str_concat(shar *s1, char *s2)
 	strnew = (char *)malloc((n1 + n2 + 1) * sizeof(char));
 	if (strnew == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	for (i = 0; s1[i] != '\0'; i++)
 		strnew[i] = s1[i];

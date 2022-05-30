@@ -24,7 +24,7 @@ void print_grid(int **grid, int width, int height)
 			w++;
 		}
 		printf("\n");
-		h++
+		h++;
 	}
 }
 
